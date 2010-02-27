@@ -1,0 +1,180 @@
+
+
+body{
+    
+    background-image: url(img/back.jpg) ;
+    font-family: sans-serif;
+   overflow:auto;
+    overflow-y:hidden;
+    
+    
+    
+    
+}
+
+a:link {
+  
+  color:#FFF;
+  text-decoration: none;
+  border: none;
+
+  
+}
+
+
+
+a:visited{
+  color:#191919;
+}
+
+
+#imgIzq{
+    
+background-color:#000000;
+float:left;
+height:100%;
+left:0;
+position:fixed;
+top:0;
+width:220px;
+-moz-box-shadow: 0 0 4em black;
+-webkit-box-shadow: 0 0 4em black;
+z-index:2;
+
+}
+
+#imgLink{
+    
+float:right;
+height:30px;
+right:10px;
+position:fixed;
+top:10px;
+width:80px;
+z-index:3;
+
+}
+
+#content{
+
+
+height:100%;
+margin-left:222px;
+position:relative;
+top:0px;
+width:3700px;
+z-index:1;
+
+
+}
+
+#info1{
+    
+    font-family: helvetica;
+    font-weight: bold;
+    margin-left:20px;
+    color: #333;
+    position: relative;
+    width:572px;
+    float:left;
+    overflow:hidden;
+    
+  
+}
+
+#info2{
+    
+    font-family: helvetica;
+    margin-left:-255px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:472px;
+    overflow:hidden;
+  
+}
+
+#info3{
+    
+    font-family: helvetica;
+    margin-left:-80px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:472px;
+    overflow:hidden;
+  
+}
+
+#info4{
+    
+    font-family: helvetica;
+    margin-left:40px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:410px;
+    overflow:hidden;
+  
+}
+
+#info5{
+    
+    font-family: helvetica;
+    margin-left:40px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:410px;
+    overflow:hidden;
+  
+}
+
+#info6{
+    
+    font-family: helvetica;
+    margin-left:40px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:250px;
+    overflow:hidden;
+  
+}
+
+#info7{
+    
+    font-family: helvetica;
+    margin-left:40px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:300px;
+    overflow:hidden;
+  
+}
+
+#info8{
+    
+    font-family: helvetica;
+    margin-left:40px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:300px;
+    overflow:hidden;
+  
+}
+
+#info9{
+    
+    font-family: helvetica;
+    margin-left:40px;
+    color: #333;
+    position: relative;
+    float:left;
+    width:570px;
+    overflow:hidden;
+  
+}
+
