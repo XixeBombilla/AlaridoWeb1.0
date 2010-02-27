@@ -56,23 +56,25 @@ z-index:3;
 }
 
 #content{
-
-
 height:100%;
-margin-left:222px;
+margin-left:22px;
 position:relative;
 top:0px;
-width:3700px;
+width:4750px;
 z-index:1;
-
-
 }
 
+#info0{
+    position: relative;
+    float:left;
+    overflow:hidden;  
+    width:1000px;
+
+}
 #info1{
     
     font-family: helvetica;
     font-weight: bold;
-    margin-left:20px;
     color: #333;
     position: relative;
     width:572px;
