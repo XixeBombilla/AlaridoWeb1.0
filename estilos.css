@@ -60,7 +60,7 @@ height:100%;
 margin-left:22px;
 position:relative;
 top:0px;
-width:5150px;
+width:4650px;
 z-index:1;
 }
 
@@ -111,7 +111,7 @@ z-index:1;
 #info4{
     
     font-family: helvetica;
-    margin-left:40px;
+    margin-left:-190px;
     color: #333;
     position: relative;
     float:left;
@@ -123,7 +123,7 @@ z-index:1;
 #info5{
     
     font-family: helvetica;
-    margin-left:40px;
+    margin-left:-160px;
     color: #333;
     position: relative;
     float:left;
