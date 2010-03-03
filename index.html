@@ -5,10 +5,10 @@
     <title>Alarido Social Media Contest</title>
     <link rel="shortcut icon" href="img/favico.png">
     <link href="estilos.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.google.com/"/>
-    <script src="http://cdn.jquerytools.org/1.1.2/jquery.tools.min.js"></script>
-   
-</head>
+    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type='text/javascript' src="script.js"></script>
+    </head>
+
 <body>
     <div id="imgIzq">
         
@@ -53,16 +53,41 @@
                 
             </p>
            
-            <img id="boton_registro" style="float:right; margin-top:-17px; cursor:pointer;" rel="#reg"/>
+            <img id="boton_registro" style="float:right; margin-top:-17px; cursor:pointer;" />
             
-            <div  class="simple_overlay" id="reg"> 
+            <div id="registro"> 
                 
                    <div class="details"> 
                        <h3>Registro de Participantes</h3> 
                 
                        <h4>Alarido SMC</h4> 
                 
-                       <p>The content ...</p> 
+                       <p>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="RN3NTXYEGV8B4">
+					<input type="image" src="https://www.paypal.com/es_XC/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+					<img alt="" border="0" src="https://www.paypal.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+					</form>
+
+					Inscripción a Alarido Social Media Contest (Estudiante) : $350.
+
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="X5WPZGP855BH8">
+					<input type="image" src="https://www.paypal.com/es_XC/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+					<img alt="" border="0" src="https://www.paypal.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+					</form>
+
+					Apoyo para la bolsa de premios del Alarido Social Media Contest.
+
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="VRJRUWLTCRV88">
+					<input type="image" src="https://www.paypal.com/es_XC/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+					<img alt="" border="0" src="https://www.paypal.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+					</form>
+					</p> 
                    </div> 
                 
             </div> 
@@ -224,16 +249,7 @@
         <a href=" http://www.flickr.com/photos/alarido/" target="_blank"><img src="img/flickr.png" style="float:right; margin-left:5px;  border:none;" width=25px; height=25px; /></a>
         <a href="http://picasaweb.google.com/alaridosmc" target="_blank"><img src="img/picasa.png" style="float:right; margin-left:5px;  border:none;" width=25px; height=25px; /></a>
         
-    </div>
-    
-    <script>
-    
-    $(document).ready(funtion(){
-        $("#boton_registro[rel]").overlay();
-    });
-    
-    </script>
-    
+    </div>   
     
   <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

@@ -1,15 +1,8 @@
-
-
-body{
-    
+body{    
     background-image: url(img/back.png) ;
     font-family: sans-serif;
    overflow:auto;
     overflow-y:hidden;
-    
-    
-    
-    
 }
 
 a:link {
@@ -191,10 +184,10 @@ z-index:1;
 }
 
 /* the overlayed element */ 
-.simple_overlay { 
+#registro { 
      
     /* must be initially hidden */ 
-    display: block; 
+    display: none; 
      
     /* place overlay on top of other elements */ 
     z-index:10000; 
@@ -214,16 +207,6 @@ z-index:1;
 } 
  
 /* close button positioned on upper right corner */ 
-.simple_overlay .close { 
-    background-image:url(img/r.png); 
-    position:absolute; 
-    right:-15px; 
-    top:-15px; 
-    cursor:pointer; 
-    height:35px; 
-    width:35px; 
-}
-
 .details { 
     position:absolute; 
     top:15px; 
