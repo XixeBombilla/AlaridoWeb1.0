@@ -2,7 +2,7 @@
 
 body{
     
-    background-image: url(img/back.jpg) ;
+    background-image: url(img/back.png) ;
     font-family: sans-serif;
    overflow:auto;
     overflow-y:hidden;
@@ -180,3 +180,61 @@ z-index:1;
   
 }
 
+#boton_registro {
+    display:block;
+	background-image: url(img/r.png);
+	height:30px;
+	width:101px;
+}
+#boton_registro:hover {
+    background-image: url(img/r_h.png);
+}
+
+/* the overlayed element */ 
+.simple_overlay { 
+     
+    /* must be initially hidden */ 
+    display: block; 
+     
+    /* place overlay on top of other elements */ 
+    z-index:10000; 
+     
+    /* styling */ 
+    background-color:#333;
+ 
+     
+    width:675px;     
+    height:525px; 
+    
+     
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow: 0 0 4em black;
+-webkit-box-shadow: 0 0 4em black;
+        
+} 
+ 
+/* close button positioned on upper right corner */ 
+.simple_overlay .close { 
+    background-image:url(img/r.png); 
+    position:absolute; 
+    right:-15px; 
+    top:-15px; 
+    cursor:pointer; 
+    height:35px; 
+    width:35px; 
+}
+
+.details { 
+    position:absolute; 
+    top:15px; 
+    right:15px; 
+    font-size:11px; 
+    color:#fff; 
+    width:400px; 
+} 
+ 
+.details h3 { 
+    color:#ccc333; 
+    font-size:15px; 
+    margin:0 0 -10px 0; 
+}

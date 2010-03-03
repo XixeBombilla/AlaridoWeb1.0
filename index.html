@@ -5,6 +5,9 @@
     <title>Alarido Social Media Contest</title>
     <link rel="shortcut icon" href="img/favico.png">
     <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://www.google.com/"/>
+    <script src="http://cdn.jquerytools.org/1.1.2/jquery.tools.min.js"></script>
+   
 </head>
 <body>
     <div id="imgIzq">
@@ -46,9 +49,24 @@
                 Inscríbete aquí antes del 16 de Abril<br/>
                 del 2010<br/>
                 Estudiantes: $350.00 MXN<br/>
-                General: $700.00 MXN
+                General: $700.00 MXN<br/>
+                
             </p>
-    
+           
+            <img id="boton_registro" style="float:right; margin-top:-17px; cursor:pointer;" rel="#reg"/>
+            
+            <div  class="simple_overlay" id="reg"> 
+                
+                   <div class="details"> 
+                       <h3>Registro de Participantes</h3> 
+                
+                       <h4>Alarido SMC</h4> 
+                
+                       <p>The content ...</p> 
+                   </div> 
+                
+            </div> 
+            
         </div>
         <div id="info3">
             
@@ -207,6 +225,15 @@
         <a href="http://picasaweb.google.com/alaridosmc" target="_blank"><img src="img/picasa.png" style="float:right; margin-left:5px;  border:none;" width=25px; height=25px; /></a>
         
     </div>
+    
+    <script>
+    
+    $(document).ready(funtion(){
+        $("#boton_registro[rel]").overlay();
+    });
+    
+    </script>
+    
     
   <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
